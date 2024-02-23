@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* header start */
+header{
+    background-color: black;
+    height: 6rem;
+}
+ nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 92%;
+    margin: 0 auto;
+    transform: translateY(2.3rem);
+}
+.logo img{
+    width: 6.5rem;
+}
+.logins{
+    transform: translateY(-1.2rem);
+}
+.sign-in{
+    margin-right: .2rem;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 40px;
+    background-color:#ffffff30;
+    border: none;
+}
+.sign-in a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 11px;
+    letter-spacing: .4px;
+    font-weight: bold;
+}
+.sign-in a:hover{
+    color: white;
+    font-size: 12px;
+}
+.get-started{
+    width: 7rem;
+    height: 2.1rem;
+    border-radius: 65px;
+    background-color:#EB004F;
+    border: none;
+}
+.get-started a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .4px;
+}
+/* header ends *
+
+ /* Annoucement bar start */
+   .bar{
+    background-color:#152233;
+    min-height: 20vh;
+   }
+   .bar-inner{
+    max-width: 64%;
+    margin: 0 auto;
+   }
+   .announcement-bar-text{
+    font-size: 40px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+  /* Annoucement bar ends */
+
+  /* forms start */
+   .your-email{
+    background-color: #031124;
+    min-height: 40vh;
+    }
+    .your-email-inner{
+    margin: 0 auto;
+    max-width: 35%;
+    transform: translateY(4rem);
+    }
+    .your-email-inner .form{
+    background-color: white;
+    height: 12.5rem;
+    width: 30rem;
+    border-radius: 12px;
+    position: relative;
+    }
+    .your-email-inner .form input {
+    position: relative;
+    left: 5%;
+    width:26.5rem;
+    height: 3rem;
+    margin-top: 2.5rem;
+    border: 1px solid red;
+    padding-left:1rem;
+    border-radius:12px ;
+    font-size: 13 px;
+    }
+    .your-email-inner .form input:hover{
+    border: 2px solid blue;
+    }
+    button{
+    background-color: #EB004F;
+    border: none;
+    margin-top: 1rem;
+    height: 3rem;
+    width:26.5rem;
+    border-radius: 12px;
+    position: relative;
+    left: 5%;
+
+    }
+    button a{
+     color:white;
+     font-weight: 900;
+     font-size: 14px;
+     letter-spacing: .5px;
+    
+     }
+
+
+  /* forms ends */
+  /* footer start */
+  .footer{
+    min-height: 30vh;
+    background-color: black;
+  }
+   .footer-inner{
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+   }
+   .footer-details ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 5rem;
+   }
+   .footer-details ul li {
+    list-style: none;
+   
+   }
+   .footer-details ul li a{
+    color: #ffffff6e;
+    text-decoration: none;
+    letter-spacing: .1px;
+   }
+   .footer-details ul li a:hover{
+    color: #fff;
+   }
+   .icon{
+    display: flex;
+    margin-top:5rem ;
+    color: #fff;
+    gap: 1.7rem;
+   }
+   .icon .web-page a{
+    color: #ffffff8e;
+   }
+   .footer-text{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 4rem;
+   }
+   .icon .web-page a:hover{
+    color: #EB004F;
+
+   }
+   .footer-text{
+    max-width: 86%;
+    color: #ffffff9a;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    line-height: 1rem;
+    padding-bottom:3rem ;
+   }
+   /* footer ends */
+
+/* Responsiveness start */
+/* HEADER START */
+@media only screen and (max-width:329px){
+    .logo img{
+     width: 4rem;
+   }
+   }
+   @media only screen and (max-width:292px){
+   .logo img{
+    width: 2rem;
+    }
+    }
+    @media only screen and (max-width:256px){
+   .logo img{
+       width: .9rem;
+       }
+       }
+   @media only screen and (max-width:236px){
+   .logo img{
+      display: none;
+       }
+           }
+
+
+
+
+    /* forms start */
+    @media only screen and (max-width:1316px){
+    .your-email-inner{
+    margin-bottom: 7rem;
+    }
+    }
+    @media only screen and (max-width:1016px){
+    .your-email-inner{
+    max-width:39%;
+    }
+    }
+    @media only screen and (max-width:955px){
+    .your-email-inner{
+    max-width:49%;
+    }
+    .announcement-bar-text{
+    font-size: 25px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    }
+    @media only screen and (max-width:918px){
+    .your-email-inner{
+    max-width:57%;
+
+    }
+    }
+    @media only screen and (max-width:812px){
+    .your-email-inner{
+    max-width:93%;
+    }
+    
+    }
+    @media only screen and (max-width:812px){
+    .your-email{
+     padding-bottom: .2rem;
+    }
+    .announcement-bar-text{
+    font-size: 22px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .your-email-inner .form{
+    width: 100%;
+    }
+    .your-email-inner .form input {
+    width: 100%;
+    left: 0;
+
+
+    }
+    button{
+    width: 100%;
+    left:0;
+
+    }
+    }
+    @media only screen and (max-width:400px){
+    .announcement-bar-text{
+    font-size: 17px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    }
+    /* forms ends */
+
+
+    /* footer start  */
+
+    @media only screen and (max-width:766px){
+    .footer-inner{
+    flex-wrap: wrap;
+    }
+    }
+    @media only screen and (max-width:1316px){
+    .footer-text{
+    max-width:90% ;
+    line-height: 1rem;
+    }
+    }
+    /* footer start  */
+
+
+
+    /* Responsiveness ends */
