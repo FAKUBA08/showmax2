@@ -244,8 +244,9 @@
 
 
    /* section 4 ends */
-   /* section-5start */
-   /* section-8 start */
+
+
+   /* section-5 start */
    .section-5-inner{
    margin: 0 auto;
    max-width: 70%;
@@ -362,6 +363,115 @@
 
 
    /* section 6 ends */
+
+    /* section 7 start */
+    .section-7-inner{
+      max-width: 90%;
+      margin: 0 auto;
+  
+      }
+      .section-7{
+      background-color: #031124;
+      padding-bottom: 9rem;
+  
+      }
+      .section-7-inner h3{
+      text-align: center;
+      color: #fff;
+      font-size: 28px;
+      padding-top:4rem;
+      }
+      .accordion .underline{
+      width: 100%;
+      height: 1px;
+      margin-top: 3rem;
+      margin-bottom: -2rem;
+      background-color: #ffffffbd;
+  
+      }
+      .accordion {
+      background-color: #031124;
+      color: #fff;
+      cursor: pointer;
+      padding: 18px;
+      padding-left: 3rem;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 23px;
+      margin-top: 2rem;
+  
+      }
+      .accordion .bi-arrow-right{
+      column-gap: 3rem;
+      padding-right:.7rem;
+  
+      }
+      @keyframes animate{
+      0%{
+      transform:scale(0%);
+      }
+      100%{
+      transform:scale(100%);
+      }
+      }
+      .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: #031124;
+      overflow: hidden;
+      }
+      .panel p{
+      color: #fff;
+      padding-left: 2rem;
+      animation-duration: 1;
+      animation: animate  .8s;
+      }
+      .panel  ul li{
+      color:white;
+      margin-left: 3rem;
+      margin-top: 1rem;
+      animation-duration: 1;
+      animation: animate  .8s;
+      }
+      .panel  ul li h5{
+      font-size: 16px;
+      font-weight: 900;
+      animation-duration: 1;
+      animation: animate  .8s;
+      }
+      .panel  ul li p{
+      margin-top: .7rem;
+      margin-left: -2rem;
+      animation-duration: 1;
+      animation: animate  .8s;
+      }
+      .panel p a {
+      color: #fff;
+      }
+  
+      .panel p {
+      margin-top: 1rem;
+      }
+      .panel  ul  h4{
+      color:white;
+      margin-left: 3rem;
+      margin-top: 1rem;
+      font-size: 18px;
+      }
+      .panel ul{
+      margin-top: 1rem;
+  
+      }
+      .panel h4{
+      color: #fff;
+      margin-left: 2rem;
+      animation-duration: 1;
+      animation: animate  .8s;
+      }
+      /* section 7 ends */
+
    /* RESPONSIVENESS START */
 
    /* HEADER START */
@@ -953,7 +1063,7 @@
    .section-6-inner{
    display: block;
    padding-bottom: 5rem;
-   margin-top: -3rem;
+   margin-top: -6rem;
    }
    .text-box-6{
    text-align: center;
@@ -998,5 +1108,19 @@
 
 
    /* section 6 ends */
+
+   
+      /* footer 7 start  */
+      @media only screen and (max-width:700px){
+         .accordion{
+         font-size: 20px;
+         }
+         .panel p{
+            font-size: 13px;
+         }
+         }
+   
+         /* section 7 ends */
+   
 
    /* RESPONSIVENESS ENDS */
