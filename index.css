@@ -1274,6 +1274,12 @@ body{
       .accordion{
       font-size: 20px;
       }
+      .panel p{
+        font-size: 13px;
+     }
+       p ul li{
+        font-size: 7px;
+     }
       }
 
       /* section 9 ends */
