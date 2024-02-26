@@ -240,7 +240,7 @@
    /* Annoucement bar ends */
    /* footer start */
    .footer{
-   min-height: 30vh;
+   min-height: 40vh;
    background-color: black;
    padding-bottom: 3rem;
    }
