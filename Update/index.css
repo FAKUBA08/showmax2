@@ -1329,6 +1329,42 @@
          }
    
          /* section 7 ends */
+
+         /* section 8 start */
+          @media only screen and (max-width:480px){
+            .section-8-inner{
+               max-width: 86%;
+            }
+          }
+          /* section 8 ends */
+
+          /* section 9 start */
+          @media only screen and (max-width:480px){
+            .section-9-inner{
+               max-width: 86%;
+            }
+          }
+
+
+
+         /* section 9 ends */
+
+         /* section 10 start */
+         @media only screen and (max-width:480px){
+            .section-10-inner{
+               max-width: 86%;
+            }
+          }
+          /* section 10 ends */
+
+          /* section 11 start */
+          @media only screen and (max-width:480px){
+            .section-11-inner{
+               max-width: 86%;
+            }
+          }
+          /* section 11 ends */
+
    
 
    /* RESPONSIVENESS ENDS */
