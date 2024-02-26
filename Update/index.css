@@ -1380,26 +1380,26 @@
 
    /* footer 7 start  */
    @media only screen and (max-width:700px){
-      .accordion{
-         font-size: 20px;
-         /* width: 100%; */
-         }
-         .panel p{
-         font-size: 13px;
-         line-height: 1.5rem;
-         }
-         p ul li{
-         font-size: 4px;
-         line-height: 1.5rem;
-         font-weight: lighter;
-         }
-     
-         }   
-         @media only screen and (max-width:500px){
-         .section-7-inner{
-         max-width: 100%;
-         }
-         }
+   .accordion{
+   font-size: 20px;
+   /* width: 100%; */
+   }
+   .panel p{
+   font-size: 13px;
+   line-height: 1.5rem;
+   }
+   p ul li{
+   font-size: 4px;
+   line-height: 1.5rem;
+   font-weight: lighter;
+   }
+
+   }   
+   @media only screen and (max-width:500px){
+   .section-7-inner{
+   max-width: 100%;
+   }
+   }
    /* section 7 ends */
 
    /* section 8 start */
@@ -1454,7 +1454,7 @@
    }
    @media only screen and (max-width:1316px){
    .footer-text{
-   max-width:90% ;
+   max-width:90% ;   
    line-height: 1rem;
    }
    }
