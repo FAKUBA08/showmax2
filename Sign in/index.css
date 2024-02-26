@@ -1,84 +1,84 @@
-*{
+    *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body{
+    }
+    body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    }
 
-/* header start */
-header{
+    /* header start */
+    header{
     background-color: black;
     height: 6rem;
-}
- nav{
+    }
+    nav{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     max-width: 92%;
     margin: 0 auto;
     transform: translateY(2.3rem);
-}
-.logo img{
+    }
+    .logo img{
     width: 6.5rem;
-}
-.logins{
+    }
+    .logins{
     transform: translateY(-1.2rem);
-}
-.sign-in{
+    }
+    .sign-in{
     margin-right: .2rem;
     width: 5rem;
     height: 1.5rem;
     border-radius: 40px;
     background-color:#ffffff30;
     border: none;
-}
-.sign-in a{
+    }
+    .sign-in a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.582);
     font-size: 11px;
     letter-spacing: .4px;
     font-weight: bold;
-}
-.sign-in a:hover{
+    }
+    .sign-in a:hover{
     color: white;
     font-size: 12px;
-}
-.get-started{
+    }
+    .get-started{
     width: 7rem;
     height: 2.1rem;
     border-radius: 65px;
     background-color:#EB004F;
     border: none;
-}
-.get-started a{
+    }
+    .get-started a{
     text-decoration: none;
     color: white;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: .4px;
-}
-/* header ends *
+    }
+    /* header ends *
 
- /* Annoucement bar start */
-   .bar{
+    /* Annoucement bar start */
+    .bar{
     background-color:#152233;
     min-height: 20vh;
-   }
-   .bar-inner{
+    }
+    .bar-inner{
     max-width: 64%;
     margin: 0 auto;
-   }
-   .announcement-bar-text{
+    }
+    .announcement-bar-text{
     font-size: 40px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   }
-  /* Annoucement bar ends */
+    }
+    /* Annoucement bar ends */
 
-  /* forms start */
-   .your-email{
+    /* forms start */
+    .your-email{
     background-color: #031124;
     min-height: 40vh;
     }
@@ -120,95 +120,100 @@ header{
 
     }
     button a{
-     color:white;
-     font-weight: 900;
-     font-size: 14px;
-     letter-spacing: .5px;
-    
-     }
+    color:white;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: .5px;
+
+    }
 
 
-  /* forms ends */
-  /* footer start */
-  .footer{
+    /* forms ends */
+    /* footer start */
+    .footer{
     min-height: 30vh;
     background-color: black;
-  }
-   .footer-inner{
+    }
+    .footer-inner{
     margin: 0 auto;
     max-width: 90%;
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-around;
-   }
-   .footer-details ul{
+    }
+    .footer-details ul{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     margin-top: 5rem;
-   }
-   .footer-details ul li {
+    }
+    .footer-details ul li {
     list-style: none;
-   
-   }
-   .footer-details ul li a{
+
+    }
+    .footer-details ul li a{
     color: #ffffff6e;
     text-decoration: none;
     letter-spacing: .1px;
-   }
-   .footer-details ul li a:hover{
+    }
+    .footer-details ul li a:hover{
     color: #fff;
-   }
-   .icon{
+    }
+    .icon{
     display: flex;
     margin-top:5rem ;
     color: #fff;
     gap: 1.7rem;
-   }
-   .icon .web-page a{
+    }
+    .icon .web-page a{
     color: #ffffff8e;
-   }
-   .footer-text{
+    }
+    .footer-text{
     color: #fff;
     font-size: 12px;
     margin-top: 4rem;
-   }
-   .icon .web-page a:hover{
+    }
+    .icon .web-page a:hover{
     color: #EB004F;
 
-   }
-   .footer-text{
+    }
+    .footer-text{
     max-width: 86%;
     color: #ffffff9a;
     margin: 0 auto;
     margin-top: 2.5rem;
     line-height: 1rem;
     padding-bottom:3rem ;
-   }
-   /* footer ends */
+    }
+    .owner{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    }
+    /* footer ends */
 
-/* Responsiveness start */
-/* HEADER START */
-@media only screen and (max-width:329px){
+    /* Responsiveness start */
+    /* HEADER START */
+    @media only screen and (max-width:329px){
     .logo img{
-     width: 4rem;
-   }
-   }
-   @media only screen and (max-width:292px){
-   .logo img{
+    width: 4rem;
+    }
+    }
+    @media only screen and (max-width:292px){
+    .logo img{
     width: 2rem;
     }
     }
     @media only screen and (max-width:256px){
-   .logo img{
-       width: .9rem;
-       }
-       }
-   @media only screen and (max-width:236px){
-   .logo img{
-      display: none;
-       }
-           }
+    .logo img{
+    width: .9rem;
+    }
+    }
+    @media only screen and (max-width:236px){
+    .logo img{
+    display: none;
+    }
+    }
 
 
 
@@ -244,11 +249,11 @@ header{
     .your-email-inner{
     max-width:93%;
     }
-    
+
     }
     @media only screen and (max-width:812px){
     .your-email{
-     padding-bottom: .2rem;
+    padding-bottom: .2rem;
     }
     .announcement-bar-text{
     font-size: 22px;
