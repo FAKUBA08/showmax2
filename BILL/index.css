@@ -200,7 +200,7 @@
         max-width: 90%;
         min-height: 50vh;
         background-color: #031124;
-        margin-top: 7rem;
+        margin-top: 2rem;
         border-radius: 17px;
         }
         .section-3-inner .box-3{
@@ -401,6 +401,9 @@
     text-align: center;
     width: 100%;
     transform: translateY(3rem);
+    }
+    .hero-img{
+        margin-top: -.4rem;
     }
     .section-1 .section-1-inner .text p{
     line-height: 2.7rem;
