@@ -247,11 +247,14 @@
     .section-3-inner .box-3 .boxes{
     width: 5rem;
     }
-    .section-3-inner .box-3 .boxes img{
+    .section-3-inner .box-3 .boxes img {
     width: 100%;
     height: auto;
 
     }
+    /* .section-3-inner .box-3:nth-of-type(4){
+        width: 70%;
+    } */
 
     /* section-3 ends */
 
@@ -647,12 +650,14 @@
     width: 19rem;
     column-gap: 1rem;
     }
+
     }
     @media only screen and (max-width:368px){
     .section-3-inner .box-3{
-    width: 15rem;
+    width: 14rem;
     column-gap: 1rem;
     }
+
     }
     @media only screen and (max-width:306px){
     .section-3-inner .box-3{
@@ -812,6 +817,14 @@
     .boxes button{
     width: 73%;
     left: 13%;
+    }
+    }
+    @media only screen and (max-width:400px){
+    .text-4 h3{
+        font-size: 23px;
+    }
+    .text-4 h3 span{
+        font-size: 17px;
     }
     }
     /* section 4 ends */
