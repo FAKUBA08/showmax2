@@ -73,6 +73,8 @@
     }
     .section-1 .section-1-inner .text{
     transform: translateY(7rem);
+    
+
     }
     .section-1 .text p{
     color: white;
@@ -118,7 +120,19 @@
     .hero-img img{
     width: 100%;
     height: auto;
+    animation: fade 1.2s 1;
 
+    }
+    @keyframes fade{
+        0%{
+             opacity:0;
+        }
+        50%{
+              opacity :60%;
+        }
+        100%{
+            opacity:(0);
+        }
     }
     /* hero page ends*/
 
