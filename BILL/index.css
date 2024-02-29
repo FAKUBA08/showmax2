@@ -385,9 +385,23 @@
     }
     .owner{
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
     }
+    .bi-arrow-up{
+    float: right;
+    position: relative;
+    left: -3%;
+    margin-top: -3rem;
+    border: none;
+    background-color: #fff;
+    width: 3%;
+    text-align: center;
+    height: -2rem; 
+    border-radius: 100px;
+    color: black;
+    }
+
     /* footer ends */
 
 
@@ -851,6 +865,12 @@
     max-width:90% ;
     line-height: 1rem;
     }
+    }
+    @media only screen and (max-width:786px){
+        .bi-arrow-up{
+            width: 7%;
+            margin-top: -1.5rem;
+        }
     }
 
 
