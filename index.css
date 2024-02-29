@@ -1289,6 +1289,7 @@ transform: translateX(0);
 margin-top: 0;
 
 }
+
 }
 @media only screen and (max-width:960px){
 .mobiles{
@@ -1311,6 +1312,10 @@ margin-top: 2rem;
 margin-top: -2rem;
 
 }
+.mobiles p:nth-of-type(1){
+    margin-top:.3rem;
+    
+    }
 }
 @media only screen and (max-width:749px){
 .mobiles p:nth-of-type(1){
@@ -1339,10 +1344,10 @@ height: 16rem;
 }
 
 @media only screen and (max-width:534px){
-.mobiles p{
-margin-top: -1rem;
+/* .mobiles p{
+margin-top:-1rem;
 
-}
+} */
 .mobiles .img-box{
 height: 13rem;
 }
