@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     }
+    html{
+        scroll-behavior: smooth;
+    }
     body{
     background-color: #152233;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
